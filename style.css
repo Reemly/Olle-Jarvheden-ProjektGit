@@ -1,0 +1,28 @@
+.toplane {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+
+}
+
+
+.nav {
+flex-direction: column-reverse;
+justify-content: space-evenly;
+
+
+}
+
+.midlane {
+display: flex;
+
+
+}
+
+
+
+.botlane {
+display: flex;
+flex-direction: column;
+
+}
