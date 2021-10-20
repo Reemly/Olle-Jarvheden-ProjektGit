@@ -1,14 +1,15 @@
 .toplane {
     display: flex;
     justify-content: flex-start;
-    justify-content: space-between;
 
 }
 
 
 .nav {
 flex-direction: column-reverse;
-justify-content: space-evenly;
+justify-content: space-between;
+padding: 10px;
+
 
 
 }
