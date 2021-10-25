@@ -1,25 +1,41 @@
+header {
+    background-color: rgb(30, 34, 51);
+    color: white;
+
+}
+
 .toplane {
     display: flex;
     justify-content: flex-start;
+    font-family: roboto;
 
 }
 
 
 .nav {
 flex-direction: column-reverse;
-justify-content: space-between;
-padding: 10px;
-
-
+justify-content: space-evenly;
+padding: auto;
+list-style: none;
+margin: auto;
 
 }
 
 .midlane {
 display: flex;
-
+justify-content: space-evenly;
 
 }
+.leftside {
+font-family: sans-serif;
+}
 
+.midside {
+background-color: rgb(223, 227, 231);
+flex-direction: column;
+font-family: roboto;
+
+}
 
 
 .botlane {
