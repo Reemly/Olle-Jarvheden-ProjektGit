@@ -84,8 +84,8 @@ font-family: sans-serif;
 
 .botlane {
 display: flex;
+justify-content: center;
 flex-direction: column;
-
 }
 
 
