@@ -9,12 +9,18 @@ body {
 background-color: rgb(223, 227, 231);
 
 }
+
+a {
+    color: gray;
+}
+
 .toplane {
     display: flex;
     justify-content: flex-start;
     font-family: sans-serif;
     align-items: center;
     gap: 20px;
+    
 }
 
 
@@ -108,6 +114,7 @@ justify-content: space-around;
 
 .midside {
 font-family: sans-serif;
+
 }
 
 
