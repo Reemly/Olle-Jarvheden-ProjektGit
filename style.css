@@ -12,6 +12,8 @@ background-color: rgb(223, 227, 231);
 
 a {
     color:white;
+    text-decoration: none;
+
 }
 
 .toplane {
@@ -20,7 +22,6 @@ a {
     font-family: sans-serif;
     align-items: center;
     gap: 20px;
-    
 }
 
 
@@ -91,16 +92,25 @@ align-items: center;
 
 .box5e
 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: auto;
+
     height: 300px;
+    gap: 30px;
 
 }
 
 
 .box6e
 {
-    width: 250px;
+
+    width: auto;
     height: 200px;
+    gap: 20px;
 }
 
 
@@ -125,6 +135,44 @@ justify-content: space-around;
 
 
 }
+
+
+
+.midside {
+    font-family: sans-serif;
+    
+}
+
+
+.botlane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.botbox {
+    width: auto;
+    height: 60px;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
 .styled {
     border: 0;
     line-height: 2.5;
@@ -152,34 +200,6 @@ justify-content: space-around;
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-
-
-.midside {
-font-family: sans-serif;
-
-}
-
-
-.botlane {
-display: flex;
-justify-content: center;
-    align-items: center;
-
-}
-
-
-.botbox {
-width: auto;
-height: 60px;
-justify-content: center;
-}
-
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-}
 .style {
     border: 0;
     line-height: 2.5;
@@ -206,13 +226,30 @@ justify-content: center;
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
-.links {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
-    list-style-type: none;
-
+.styl {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 16px; 
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
+.styl:hover {
+    background-color: rgb(207, 207, 207);
+}
 
+.styl:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+
+}
